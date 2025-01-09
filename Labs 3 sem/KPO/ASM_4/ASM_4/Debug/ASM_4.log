@@ -1,0 +1,17 @@
+﻿Сборка начата 12.12.2024 23:16:57.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM_4\ASM_4.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "ASM_4\Debug\ASM_4.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "ASM_4\Debug\ASM_4.tlog\unsuccessfulbuild".
+       FinalizeBuildStatus:
+         Файл "ASM_4\Debug\ASM_4.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "ASM_4\Debug\ASM_4.tlog\ASM_4.lastbuildstate".
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM_4\ASM_4.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.02

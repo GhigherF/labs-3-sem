@@ -1,0 +1,25 @@
+﻿Сборка начата 19.12.2024 22:58:16.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\Libka\Libka.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "Debug\Libka.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling Libka.asm...
+         cmd.exe /C "C:\Users\stude\AppData\Local\Temp\tmp71d7c252f85d465a8f1f446e0623744d.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\Libka.obj" /W3 /errorReport:prompt  /TaLibka.asm
+     1>Libka.asm(1): error A2044: invalid character in file
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\Libka.obj" /W3 /errorReport:prompt  /TaLibka.asm" с кодом "1".
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\Libka\Libka.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\Libka\Libka.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         Libka.asm(1): error A2044: invalid character in file
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\Libka.obj" /W3 /errorReport:prompt  /TaLibka.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:00.16

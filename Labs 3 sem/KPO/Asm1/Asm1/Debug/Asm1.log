@@ -1,0 +1,24 @@
+﻿Сборка начата 25.11.2024 20:52:26.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\Asm1\Asm1.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Asm1\Debug\Asm1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Asm1\Debug\Asm1.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling AsmTest.asm...
+         cmd.exe /C "C:\Users\stude\AppData\Local\Temp\tmp05e29d5ca4d94c3a81229943f0d851fb.cmd"
+         ml.exe /c /nologo /Zi /Fo"Asm1\Debug\AsmTest.obj" /Fl"#IntDir" /W3 /errorReport:prompt  /TaAsmTest.asm
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\Asm1\Debug\Asm1.exe" /INCREMENTAL /ILK:"Asm1\Debug\Asm1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\Asm1\Debug\Asm1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\Asm1\Debug\Asm1.lib" /MACHINE:X86 Asm1\Debug\AsmTest.obj
+         Asm1.vcxproj -> C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\Asm1\Debug\Asm1.exe
+       FinalizeBuildStatus:
+         Файл "Asm1\Debug\Asm1.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Asm1\Debug\Asm1.tlog\Asm1.lastbuildstate".
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\Asm1\Asm1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.52

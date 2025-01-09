@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCactus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cactus>
+    <a>5</a>
+    <beauty>200</beauty>
+    <color>Green</color>
+    <name>Kakaktus</name>
+  </Cactus>
+  <Cactus>
+    <a>6</a>
+    <beauty>300</beauty>
+    <color>Red</color>
+    <name>Kakaktus</name>
+  </Cactus>
+  <Cactus>
+    <a>7</a>
+    <beauty>400</beauty>
+    <color>Blue</color>
+    <name>Kakaktus</name>
+  </Cactus>
+</ArrayOfCactus>

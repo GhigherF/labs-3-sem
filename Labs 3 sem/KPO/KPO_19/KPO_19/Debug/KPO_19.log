@@ -1,0 +1,29 @@
+﻿Сборка начата 19.12.2024 22:32:33.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\KPO_19.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "KPO_19\Debug\KPO_19.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling SE_asm01.asm...
+         cmd.exe /C "C:\Users\stude\AppData\Local\Temp\tmpf8af1ce4d429473b991bb35718943049.cmd"
+         ml.exe /c /nologo /Zi /Fo"KPO_19\Debug\SE_asm01.obj" /W3 /errorReport:prompt  /TaSE_asm01.asm
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\Debug\KPO_19.exe" /INCREMENTAL /ILK:"KPO_19\Debug\KPO_19.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\Debug\KPO_19.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\Debug\KPO_19.lib" /MACHINE:X86 "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\Debug\StaticLib1.lib" KPO_19\Debug\SE_asm01.obj
+     1>LINK : warning LNK4098: библиотека по умолчанию "libucrt.lib" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+         KPO_19.vcxproj -> C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\Debug\KPO_19.exe
+       FinalizeBuildStatus:
+         Файл "KPO_19\Debug\KPO_19.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "KPO_19\Debug\KPO_19.tlog\KPO_19.lastbuildstate".
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\KPO_19.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\KPO_19.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         LINK : warning LNK4098: библиотека по умолчанию "libucrt.lib" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.64

@@ -1,0 +1,24 @@
+﻿Сборка начата 26.11.2024 23:15:41.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2_TEst\ASM2_TEst.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "ASM2_TEst\Debug\ASM2_TEst.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "ASM2_TEst\Debug\ASM2_TEst.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling ASM.asm...
+         cmd.exe /C "C:\Users\stude\AppData\Local\Temp\tmpef65c9b0f4dd4ebfb0b3a01170febcaa.cmd"
+         ml.exe /c /nologo /Zi /Fo"ASM2_TEst\Debug\ASM.obj" /W3 /errorReport:prompt  /TaASM.asm
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2_TEst\Debug\ASM2_TEst.exe" /INCREMENTAL /ILK:"ASM2_TEst\Debug\ASM2_TEst.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2_TEst\Debug\ASM2_TEst.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2_TEst\Debug\ASM2_TEst.lib" /MACHINE:X86 ASM2_TEst\Debug\ASM.obj
+         ASM2_TEst.vcxproj -> C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2_TEst\Debug\ASM2_TEst.exe
+       FinalizeBuildStatus:
+         Файл "ASM2_TEst\Debug\ASM2_TEst.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "ASM2_TEst\Debug\ASM2_TEst.tlog\ASM2_TEst.lastbuildstate".
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2_TEst\ASM2_TEst.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.31

@@ -1,0 +1,15 @@
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\bin\Debug\net8.0\11 september.exe
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\bin\Debug\net8.0\11 september.deps.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\bin\Debug\net8.0\11 september.runtimeconfig.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\bin\Debug\net8.0\11 september.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\bin\Debug\net8.0\11 september.pdb
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\obj\Debug\net8.0\11 september.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\obj\Debug\net8.0\11 september.AssemblyInfoInputs.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\obj\Debug\net8.0\11 september.AssemblyInfo.cs
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\obj\Debug\net8.0\11 september.csproj.CoreCompileInputs.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\obj\Debug\net8.0\11 september.sourcelink.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\obj\Debug\net8.0\11 september.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\obj\Debug\net8.0\refint\11 september.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\obj\Debug\net8.0\11 september.pdb
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\obj\Debug\net8.0\11 september.genruntimeconfig.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\11 september\11 september\obj\Debug\net8.0\ref\11 september.dll

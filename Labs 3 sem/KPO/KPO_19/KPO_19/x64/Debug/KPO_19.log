@@ -1,0 +1,32 @@
+﻿Сборка начата 17.12.2024 11:05:49.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\KPO_19.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "KPO_19\x64\Debug\KPO_19.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"KPO_19\x64\Debug\\" /Fd"KPO_19\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt SE_asm01.asm
+         SE_asm01.asm
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\SE_asm01.asm(1,1): error C2059: синтаксическая ошибка: константа
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\SE_asm01.asm(6,19): error C3927: "->": конечный тип возвращаемого значения недопустим после оператора объявления, не относящегося к функции.
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\SE_asm01.asm(8,1): error C3484: синтаксическая ошибка: требуется "->" перед возвращающим типом
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\SE_asm01.asm(8,2): error C3613: отсутствует тип возвращаемого значения после "->" (предполагается int)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\SE_asm01.asm(6,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\SE_asm01.asm(8,2): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "stack"
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\KPO_19.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\KPO_19.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\SE_asm01.asm(1,1): error C2059: синтаксическая ошибка: константа
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\SE_asm01.asm(6,19): error C3927: "->": конечный тип возвращаемого значения недопустим после оператора объявления, не относящегося к функции.
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\SE_asm01.asm(8,1): error C3484: синтаксическая ошибка: требуется "->" перед возвращающим типом
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\SE_asm01.asm(8,2): error C3613: отсутствует тип возвращаемого значения после "->" (предполагается int)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\SE_asm01.asm(6,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\SE_asm01.asm(8,2): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "stack"
+
+    Предупреждений: 0
+    Ошибок: 6
+
+Прошло времени 00:00:00.12

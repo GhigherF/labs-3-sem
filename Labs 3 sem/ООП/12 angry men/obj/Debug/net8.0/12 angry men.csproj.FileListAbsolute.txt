@@ -1,0 +1,15 @@
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\bin\Debug\net8.0\12 angry men.exe
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\bin\Debug\net8.0\12 angry men.deps.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\bin\Debug\net8.0\12 angry men.runtimeconfig.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\bin\Debug\net8.0\12 angry men.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\bin\Debug\net8.0\12 angry men.pdb
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\obj\Debug\net8.0\12 angry men.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\obj\Debug\net8.0\12 angry men.AssemblyInfoInputs.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\obj\Debug\net8.0\12 angry men.AssemblyInfo.cs
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\obj\Debug\net8.0\12 angry men.csproj.CoreCompileInputs.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\obj\Debug\net8.0\12 angry men.sourcelink.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\obj\Debug\net8.0\12 angry men.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\obj\Debug\net8.0\refint\12 angry men.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\obj\Debug\net8.0\12 angry men.pdb
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\obj\Debug\net8.0\12 angry men.genruntimeconfig.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\12 angry men\obj\Debug\net8.0\ref\12 angry men.dll

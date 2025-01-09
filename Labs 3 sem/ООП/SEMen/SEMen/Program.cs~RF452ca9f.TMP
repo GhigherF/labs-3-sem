@@ -1,0 +1,76 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace lab7
+{
+    interface ICustom<T>
+    {
+        void Add(T a);
+        void Remove(T a);
+        void Display();
+    }
+
+    public class CollectionType<T> : ICustom<T> where T :IComparable<T>
+    {
+        private SortedSet<T> set = new SortedSet<T>();
+
+        public CollectionType(T[] temp)
+        {
+            if(temp == null) throw new Exception("Лееее, куда прёшь?");
+            foreach (T t in temp)
+            {
+                set.Add(t);
+            }
+        }
+
+        public void Add(T a)
+        {
+            set.Add(a);
+        }
+
+        public void Remove(T a)
+        {
+            set.Remove(a);
+        }
+
+        public bool IsContains(T a) {
+            foreach (T t in set)
+            {
+                if (a.Equals(t))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public void Display()
+        {
+            foreach (T t in set)
+            {
+                Console.WriteLine(t);
+            }
+        }
+    }
+
+    public static class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] temp=null;
+            string[] gg = ["Rip", "And", "Tear"];
+            try
+            {
+                CollectionType<int> set = new CollectionType<int>(temp);
+
+                set.Display();
+                set.Remove(1);
+                set.Display();
+                CollectionType<string> set2 = new CollectionType<string>(gg);
+                set2.Display();
+                Console.WriteLine(set2.IsContains("DOOM"));
+            }
+            catch (Exception e) { Console.WriteLine(e.Message); }
+        }
+    }
+}

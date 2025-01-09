@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\stude\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Labs\\labs\\Labs 3 sem\\\u041E\u041E\u041F\\Hateful 8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92C53FD9-A748-42D5-B751-57A26987C3D0}|Hateful 8\\Hateful 8.csproj|c:\\users\\stude\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\labs\\labs\\labs 3 sem\\\u043E\u043E\u043F\\hateful 8\\hateful 8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92C53FD9-A748-42D5-B751-57A26987C3D0}|Hateful 8\\Hateful 8.csproj|solutionrelative:hateful 8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C53FD9-A748-42D5-B751-57A26987C3D0}|Hateful 8\\Hateful 8.csproj|c:\\users\\stude\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\labs\\labs\\labs 3 sem\\\u043E\u043E\u043F\\hateful 8\\hateful 8\\program.cs~rf54c9a87.tmp||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{92C53FD9-A748-42D5-B751-57A26987C3D0}|Hateful 8\\Hateful 8.csproj|solutionrelative:hateful 8\\program.cs~rf54c9a87.tmp||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C53FD9-A748-42D5-B751-57A26987C3D0}|Hateful 8\\Hateful 8.csproj|c:\\users\\stude\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\labs\\labs\\labs 3 sem\\\u043E\u043E\u043F\\hateful 8\\hateful 8\\program.cs~rf520a7cb.tmp||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{92C53FD9-A748-42D5-B751-57A26987C3D0}|Hateful 8\\Hateful 8.csproj|solutionrelative:hateful 8\\program.cs~rf520a7cb.tmp||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs~RF54c9a87.TMP",
+              "DocumentMoniker": "C:\\Users\\stude\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Labs\\labs\\Labs 3 sem\\\u041E\u041E\u041F\\Hateful 8\\Hateful 8\\Program.cs~RF54c9a87.TMP",
+              "RelativeDocumentMoniker": "Hateful 8\\Program.cs~RF54c9a87.TMP",
+              "ToolTip": "C:\\Users\\stude\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Labs\\labs\\Labs 3 sem\\\u041E\u041E\u041F\\Hateful 8\\Hateful 8\\Program.cs~RF54c9a87.TMP",
+              "RelativeToolTip": "Hateful 8\\Program.cs~RF54c9a87.TMP",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-01T14:04:30.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs~RF520a7cb.TMP",
+              "DocumentMoniker": "C:\\Users\\stude\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Labs\\labs\\Labs 3 sem\\\u041E\u041E\u041F\\Hateful 8\\Hateful 8\\Program.cs~RF520a7cb.TMP",
+              "RelativeDocumentMoniker": "Hateful 8\\Program.cs~RF520a7cb.TMP",
+              "ToolTip": "C:\\Users\\stude\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Labs\\labs\\Labs 3 sem\\\u041E\u041E\u041F\\Hateful 8\\Hateful 8\\Program.cs~RF520a7cb.TMP",
+              "RelativeToolTip": "Hateful 8\\Program.cs~RF520a7cb.TMP",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-01T14:04:28.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Labs\\labs\\Labs 3 sem\\\u041E\u041E\u041F\\Hateful 8\\Hateful 8\\Program.cs",
+              "RelativeDocumentMoniker": "Hateful 8\\Program.cs",
+              "ToolTip": "C:\\Users\\stude\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Labs\\labs\\Labs 3 sem\\\u041E\u041E\u041F\\Hateful 8\\Hateful 8\\Program.cs",
+              "RelativeToolTip": "Hateful 8\\Program.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAADcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T18:29:55.138Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

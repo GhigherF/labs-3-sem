@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sus</title>
+    <link rel="stylesheet" href="gg.css">
+    <script src="gg.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="grid">
+        <script>
+            for (let i = 0; i < 81; i++) {
+                const input = document.createElement("input");
+                input.type = "number";
+                input.min = 0; 
+                input.max = 9; 
+                document.querySelector('.grid').appendChild(input);
+            }
+        </script>
+    </div>
+    <div class="controls">
+        <button id="reset-field">Reset Field</button>
+        <button id="check-field">Check Field</button>
+        <button id="generate-solution">Generate Solution</button>
+    </div>
+</body>
+
+</html>

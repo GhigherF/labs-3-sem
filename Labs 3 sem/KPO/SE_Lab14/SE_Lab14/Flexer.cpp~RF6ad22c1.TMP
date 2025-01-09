@@ -1,0 +1,118 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
+#include <cstring>
+#include "IT.h"
+#include "Error.h"
+#include "In.h"
+#include "Log.h"
+#include "LT.h"
+#include "FST.h"
+using namespace std;
+
+namespace Flexer
+{
+    void Exe(/*LT::LexTable& lextable,*/In::IN& in/*, Log::LOG& log*/)
+    {
+        unsigned char* full = new unsigned char[TI_STR_MAXSIZE];
+        unsigned char* a = in.text;
+        char b[] = "";
+        full = a;
+        cout << full << '\n';
+        char* temp = new char[TI_STR_MAXSIZE];
+        int i = 0;
+        int k = 0;
+        char* part = nullptr;
+        string final;
+
+        while (full[i] != 204) {
+            k = 0;
+
+            while (full[i] != ' ' && full[i] != 204) {
+                temp[k] = full[i];
+                i++;
+                k++;
+            }
+            temp[k] = '\0';
+
+            part = new char[k + 1];
+            strncpy(part, temp, k);
+            part[k] = '\0';
+
+            // Пропускаем пробел
+            if (full[i] == ' ') {
+                i++;
+            }
+
+            /////////////////////////////////////////////////////////////////
+                        ///////////////////////////////////////////////////
+                        //////////////////////////////////////////////////
+
+            FST::FST getInteger(
+                part,
+                8,
+                FST::NODE(1, FST::RELATION('i', 1)),
+                FST::NODE(1, FST::RELATION('n', 2)),
+                FST::NODE(1, FST::RELATION('t', 3)),
+                FST::NODE(1, FST::RELATION('e', 4)),
+                FST::NODE(1, FST::RELATION('g', 5)),
+                FST::NODE(1, FST::RELATION('e', 6)),
+                FST::NODE(1, FST::RELATION('r', 7)),
+                FST::NODE()
+            );
+
+            FST::FST getString(
+                part,
+                7,
+                FST::NODE(1, FST::RELATION('s', 1)),
+                FST::NODE(1, FST::RELATION('t', 2)),
+                FST::NODE(1, FST::RELATION('r', 3)),
+                FST::NODE(1, FST::RELATION('i', 4)),
+                FST::NODE(1, FST::RELATION('n', 5)),
+                FST::NODE(1, FST::RELATION('g', 6)),
+                FST::NODE()
+            );
+            FST::FST getFunction
+            (
+                part,
+                9,
+                FST::NODE(1, FST::RELATION('f', 1)),
+                FST::NODE(1, FST::RELATION('u', 2)),
+                FST::NODE(1, FST::RELATION('n', 3)),
+                FST::NODE(1, FST::RELATION('c', 4)),
+                FST::NODE(1, FST::RELATION('t', 5)),
+                FST::NODE(1, FST::RELATION('i', 6)),
+                FST::NODE(1, FST::RELATION('o', 7)),
+                FST::NODE(1, FST::RELATION('n', 8)),
+                FST::NODE()
+            );
+
+
+            /////////////////////////////////////////////////////////////////////
+                        /////////////////////////////////////////////////////
+                        //////////////////////////////////////////////////
+                        /////////////////////////////////////////////////
+
+
+
+
+
+            if (FST::execute(getInteger)) {
+                final += LEX_INTEGER;
+            }
+            else if (FST::execute(getString)) {
+                final += LEX_STRING;
+            }
+            else if (FST::execute(getFunction)) {
+                final += LEX_FUNCTION;
+            }
+            final += '\n';
+
+            delete[] part;
+            part = nullptr;
+        }
+
+        cout << "\n\n-------------------------------\n" << final;
+
+        delete[] temp;
+    }
+} ошибка ссылка на неразрешённый элемент

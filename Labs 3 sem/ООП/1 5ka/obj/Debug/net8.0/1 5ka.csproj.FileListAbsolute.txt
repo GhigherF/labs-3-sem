@@ -1,0 +1,15 @@
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\bin\Debug\net8.0\1 5ka.exe
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\bin\Debug\net8.0\1 5ka.deps.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\bin\Debug\net8.0\1 5ka.runtimeconfig.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\bin\Debug\net8.0\1 5ka.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\bin\Debug\net8.0\1 5ka.pdb
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\obj\Debug\net8.0\1 5ka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\obj\Debug\net8.0\1 5ka.AssemblyInfoInputs.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\obj\Debug\net8.0\1 5ka.AssemblyInfo.cs
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\obj\Debug\net8.0\1 5ka.csproj.CoreCompileInputs.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\obj\Debug\net8.0\1 5ka.sourcelink.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\obj\Debug\net8.0\1 5ka.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\obj\Debug\net8.0\refint\1 5ka.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\obj\Debug\net8.0\1 5ka.pdb
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\obj\Debug\net8.0\1 5ka.genruntimeconfig.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\1 5ka\obj\Debug\net8.0\ref\1 5ka.dll

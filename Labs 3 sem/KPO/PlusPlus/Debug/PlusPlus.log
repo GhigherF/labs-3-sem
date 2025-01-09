@@ -1,0 +1,25 @@
+﻿Сборка начата 19.12.2024 22:38:06.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\PlusPlus\PlusPlus.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\PlusPlus.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\PlusPlus.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Yu"pch.h" /Fp"Debug\PlusPlus.pch" /Fo"Debug\\" /Fd"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\Debug\PlusPlus.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt PlusPlus.cpp
+         PlusPlus.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\Lib.exe /OUT:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\Debug\PlusPlus.lib" /NOLOGO /MACHINE:X86 Debug\pch.obj
+         Debug\PlusPlus.obj
+         PlusPlus.vcxproj -> C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\Debug\PlusPlus.lib
+       FinalizeBuildStatus:
+         Файл "Debug\PlusPlus.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\PlusPlus.tlog\PlusPlus.lastbuildstate".
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\PlusPlus\PlusPlus.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.59

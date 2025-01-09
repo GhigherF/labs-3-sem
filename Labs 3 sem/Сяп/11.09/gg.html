@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список дел</title>
+    <link rel="stylesheet" href="gg.css">
+    <script src="gg.js"></script>
+</head>
+<body>
+    <h1 id="ListName"></h1>
+    
+    <script>
+        let list = new ToDoList("Планы на жизнь");
+        list.Add(new Task("Купить слона"));
+        document.getElementById("ListName").innerHTML = list.name;
+
+        function renderTasks(filter = "all") {
+            const taskList = document.getElementById("List");
+            taskList.innerHTML = "";
+
+            const filteredTasks = list._list.filter(task => {
+                if (filter === "completed" && task._status === "Выполнена") return true; 
+                if (filter === "incomplete" && task._status === "Не выполнена") return true;
+                return filter === "all";
+            });
+
+            filteredTasks.forEach(task => {
+                const listItem = document.createElement("li");
+                listItem.className = "task_item";
+
+                listItem.innerHTML = `
+                    <input type="checkbox" id="check_${task.id}" ${task._status === "Выполнена" ? "checked" : ""}>
+                    <span class="task_name" id="task_${task.id}">${task.name}</span>
+                    <button class="edit_btn">Редактировать</button>
+                    <button class="delete_btn">Удалить</button>
+                `;
+
+                listItem.querySelector(`#check_${task.id}`).onchange = function () {
+                    task.changeStatus();
+                    renderTasks(filter); 
+                };
+
+                listItem.querySelector(".edit_btn").onclick = function () {
+                    const newText = prompt("Новое название", task.name);
+                    if (newText && newText.trim()) {
+                        task.name = newText;
+                        listItem.querySelector(".task_name").innerText = newText;
+                    }
+                };
+
+                listItem.querySelector(".delete_btn").onclick = function () {
+                    list.Delete(task.name);
+                    renderTasks(filter);
+                };
+
+                taskList.appendChild(listItem);
+            });
+        }
+
+        renderTasks();
+    </script>
+
+    <div class="task_input">
+        <input type="text" placeholder="Введите название задачи" id="task_name">
+        <button id="add_btn">Добавить</button>
+        <script>
+            document.getElementById("add_btn").onclick = function () {
+                const taskNameInput = document.getElementById("task_name");
+                const text = taskNameInput.value.trim();
+            
+                    const task = new Task(text);
+                    list.Add(task);
+                    taskNameInput.value = ""; 
+                    renderTasks("all");
+            };  
+        </script>
+    </div>
+    <div class="filters">
+
+        <button onclick="renderTasks('all')">Показать все</button>
+        <button onclick="renderTasks('completed')">Показать выполненные</button>
+        <button onclick="renderTasks('incomplete')">Показать невыполненные</button>
+    </div>
+    <ul id="List"></ul>
+    <script>renderTasks();</script>
+</body>
+</html>

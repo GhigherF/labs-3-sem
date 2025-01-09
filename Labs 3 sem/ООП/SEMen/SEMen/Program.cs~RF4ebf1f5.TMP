@@ -1,0 +1,100 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace lab7
+{
+    interface ICustom<T>
+    {
+        void Add(T a);
+        void Remove(T a);
+        void Display();
+    }
+    public class Plant:IComparable<Plant>
+    {
+       public string name;
+     int IComparable<Plant>.CompareTo(Plant gg)
+        {
+            if(this.a > gg.a) return 1;
+            if(this.a < gg.a) return -1;
+            return 0;
+        }
+    }   
+
+    public class CollectionType<T> : ICustom<T> //where T :Generic,IComparable<T>
+    {
+        private SortedSet<T> set = new SortedSet<T>();
+
+        public CollectionType(T[] temp)
+        {
+            if(temp == null) throw new Exception("Лееее, куда прёшь?");
+            foreach (T t in temp)
+            {
+                set.Add(t);
+            }
+        }
+
+        public void Add(T a)
+        {
+            set.Add(a);
+        }
+
+        public void Remove(T a)
+        {
+            if (!set.Contains(a)) throw new Exception("Нема элемента");
+            set.Remove(a);
+        }
+
+        public bool IsContains(T a) {
+            foreach (T t in set)
+            {
+                if (a.Equals(t))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+        public void Display()
+        {
+            foreach (T t in set)
+            {
+                if (t is Plant gg)
+                {
+                    Console.WriteLine(gg.a);
+                }
+                else
+                    Console.WriteLine(t);   
+            }
+        }
+    }
+
+    public static class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] temp = [];
+            string[] gg = ["Rip", "And", "Tear"];
+            double[] qq = [1.2, 3.4, 5.6];
+            try
+            {
+                CollectionType<int> set = new CollectionType<int>(temp);
+                CollectionType<double> set3 = new CollectionType<double>(qq);
+                set3.Display();
+                set.Display();
+                //set.Remove(1);
+                set.Display();
+                CollectionType<string> set2 = new CollectionType<string>(gg);
+                set2.Display();
+                //    Console.WriteLine(set2.IsContains("DOOM"));
+                Plant g = new Plant();
+            Plant b = new Plant();
+            b.a=15;
+            Plant[] a = [g, b];
+            CollectionType<Plant> gg2=new CollectionType<Plant>(a);
+            gg2.Display();
+            }
+            catch (Exception e) { Console.WriteLine(e.Message); }
+            finally { Environment.Exit(0); }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Kakaktus",
+    "beauty": 200,
+    "color": "Green",
+    "a": 5
+  },
+  {
+    "name": "Kakaktus",
+    "beauty": 300,
+    "color": "Red",
+    "a": 6
+  },
+  {
+    "name": "Kakaktus",
+    "beauty": 400,
+    "color": "Blue",
+    "a": 7
+  }
+]

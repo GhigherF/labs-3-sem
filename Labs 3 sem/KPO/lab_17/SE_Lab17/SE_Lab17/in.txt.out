@@ -1,0 +1,24 @@
+announce small fn strl(symbol p)|1
+{|2
+write p;|3
+return a;|4
+};|5
+main|6
+{|7
+announce small x;|8
+announce small y;|9
+announce small z;|10
+announce symbol sa;|11
+announce symbol sb;|12
+announce symbol sc;|13
+x = <- 1;|14
+y = -> 5;|15
+sa = '1';|16
+sb = 'a';|17
+sc = fs(sa,sb);|18
+write 'Hello World';|19
+write z;|20
+write sc;|21
+write strl(sc);|22
+return 0;|23
+};|24

@@ -1,0 +1,87 @@
+﻿namespace lab_8
+{
+    class Zavod
+    {
+        public enum Hierarchy
+        {
+            Worker=1,
+            Engineer,
+            SeniorEngineer
+        }
+        public  delegate void  Del <T>(T person,int amount);
+
+       public static class Principle<T>
+        { 
+            public static void Raise(T person,int amount)
+            {
+                if (person is Worker a)
+                {
+                   a.salary += amount;
+                }
+                else if (person is Engineer b)
+                {
+                    b.salary += amount;
+                }
+                else if (person is SeniorEngineer c)
+                {
+                    c.salary += amount;
+                }
+            }
+
+
+            public static void Penalty(T person, int amount)
+            {
+                if (person is Worker a)
+                {
+                    a.salary -= amount;
+                }
+                else if (person is Engineer b)
+                {
+                    b.salary -= amount;
+                }
+                else if (person is SeniorEngineer c)
+                {
+                    c.salary -= amount;
+                }
+            }
+        }
+
+       public class Worker
+        {
+            public int salary = 800;
+            public Hierarchy status=(Hierarchy)1;
+            public string name = "No Name";
+        }
+
+        public class Engineer
+        {
+            public int salary = 1200;
+            public Hierarchy status = (Hierarchy)2;
+            public string name = "No Name";
+        }
+
+       public class SeniorEngineer
+        {
+            public int salary = 1450;
+            public Hierarchy status = (Hierarchy)3;
+            public string name = "No Name";
+        }
+
+    }
+
+
+    class Program
+    {
+        static void Main()
+        {
+            Zavod.Worker worker1 = new Zavod.Worker();
+            worker1.name="ghigher";
+            Zavod.Del<Zavod.Worker> gg=Zavod.Principle<Zavod.Worker>.Raise;
+            gg(worker1, 100);
+            Console.WriteLine(worker1.salary);
+            gg=Zavod.Principle<Zavod.Worker>.Penalty;
+            gg(worker1, 500);
+            Console.WriteLine(worker1.salary);
+        }
+    }
+}

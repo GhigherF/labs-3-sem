@@ -1,0 +1,38 @@
+﻿Сборка начата 25.11.2024 21:07:27.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2\ASM2.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+         Создание каталога "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2\x64\Debug\".
+         Создание каталога "ASM2\x64\Debug\ASM2.tlog\".
+       InitializeBuildStatus:
+         Создание "ASM2\x64\Debug\ASM2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "ASM2\x64\Debug\ASM2.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling Asm2.asm...
+         cmd.exe /C "C:\Users\stude\AppData\Local\Temp\tmpadcf9c7e9571460f8a07eb97a31d4f61.cmd"
+         ml64.exe /c /nologo /Zi /Fo"ASM2\x64\Debug\Asm2.obj" /Fl"$IntDir" /W3 /errorReport:prompt  /TaAsm2.asm
+     1>Asm2.asm(1): error A2008: syntax error : .
+     1>Asm2.asm(7): error A2008: syntax error : .
+     1>Asm2.asm(21): error A2008: syntax error : in instruction
+     1>Asm2.asm(22): error A2008: syntax error : in instruction
+     1>Asm2.asm(29): error A2008: syntax error : main
+     1>Asm2.asm(29): error A2088: END directive required at end of file
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"ASM2\x64\Debug\Asm2.obj" /Fl"$IntDir" /W3 /errorReport:prompt  /TaAsm2.asm" с кодом "1".
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2\ASM2.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2\ASM2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         Asm2.asm(1): error A2008: syntax error : .
+         Asm2.asm(7): error A2008: syntax error : .
+         Asm2.asm(21): error A2008: syntax error : in instruction
+         Asm2.asm(22): error A2008: syntax error : in instruction
+         Asm2.asm(29): error A2008: syntax error : main
+         Asm2.asm(29): error A2088: END directive required at end of file
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"ASM2\x64\Debug\Asm2.obj" /Fl"$IntDir" /W3 /errorReport:prompt  /TaAsm2.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 7
+
+Прошло времени 00:00:00.34

@@ -1,0 +1,15 @@
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\bin\Debug\net8.0\Metallica-One.exe
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\bin\Debug\net8.0\Metallica-One.deps.json
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\bin\Debug\net8.0\Metallica-One.runtimeconfig.json
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\bin\Debug\net8.0\Metallica-One.dll
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\bin\Debug\net8.0\Metallica-One.pdb
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\obj\Debug\net8.0\Metallica-One.GeneratedMSBuildEditorConfig.editorconfig
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\obj\Debug\net8.0\Metallica-One.AssemblyInfoInputs.cache
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\obj\Debug\net8.0\Metallica-One.AssemblyInfo.cs
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\obj\Debug\net8.0\Metallica-One.csproj.CoreCompileInputs.cache
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\obj\Debug\net8.0\Metallica-One.sourcelink.json
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\obj\Debug\net8.0\Metallica-One.dll
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\obj\Debug\net8.0\refint\Metallica-One.dll
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\obj\Debug\net8.0\Metallica-One.pdb
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\obj\Debug\net8.0\Metallica-One.genruntimeconfig.cache
+C:\111\.git\Labs 3 sem\ООП\Metallica - one\Metallica-One\obj\Debug\net8.0\ref\Metallica-One.dll

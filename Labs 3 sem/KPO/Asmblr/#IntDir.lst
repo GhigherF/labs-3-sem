@@ -1,0 +1,64 @@
+Microsoft (R) Macro Assembler (x64) Version 14.41.34120.0   11/25/24 21:27:17
+Asm.asm							     Page 1 - 1
+
+
+				.MODEL FLAT, STDCALL
+Asm.asm(1) : error A2008:syntax error : .
+				includelib kernel32.lib
+
+				ExitProcess PROTO:DWORD
+				MessageBoxA PROTO : DWORD,:DWORD,:DWORD,:DWORD
+
+				.STACK 4096
+Asm.asm(7) : error A2008:syntax error : .
+
+ 00000000			.CONST
+
+ 00000000			.DATA
+ 00000000 D5 F3 E9 00		MESSAGE		DB "’ÛÈ",0
+
+
+ 00000000			.CODE
+					
+ 00000000			main PROC
+ 00000000			START :
+						PUSH  OFFSET MESSAGE
+Asm.asm(19) : error A2070:invalid instruction operands
+ 00000000  E8 00000000 E			CALL MessageBoxA
+
+ 00000005  6A 45			push 69
+ 00000007  E8 00000000 E		call ExitProcess
+ 0000000C			main ENDP
+
+				end main
+Microsoft (R) Macro Assembler (x64) Version 14.41.34120.0   11/25/24 21:27:17
+Asm.asm							     Symbols 2 - 1
+
+
+
+
+Segments:
+
+                N a m e                  Length   Align   Class
+
+CONST  . . . . . . . . . . . . .	 00000000 16	  'CONST'	 ReadOnly
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P 	 00000000 Length= 00000000 External
+MessageBoxA  . . . . . . . . . .	P 	 00000000 Length= 00000000 External
+main . . . . . . . . . . . . . .	P 	 00000000 _TEXT	Length= 0000000C Public
+  START  . . . . . . . . . . . .	L 	 00000000 _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+MESSAGE  . . . . . . . . . . . .	Byte	 00000000 _DATA	
+
+	   0 Warnings
+	   5 Errors

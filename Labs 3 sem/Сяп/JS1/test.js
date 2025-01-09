@@ -1,0 +1,20 @@
+describe("sum",function()
+{
+    it("Test",function()
+{
+    assert.equal(sum(1,2),3);
+});
+it("Test1",function()
+{
+    assert.equal(sum(7,10),17);
+});
+it("Test2",function()
+{
+    assert.equal(sum(11,24),35);
+});
+it("Test3",function()
+{
+    assert.equal(sum(2,7),9);
+});
+
+});

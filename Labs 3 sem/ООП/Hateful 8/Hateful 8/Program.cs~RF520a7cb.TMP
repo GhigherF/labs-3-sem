@@ -1,0 +1,44 @@
+﻿namespace lab_8
+{
+    class Zavod
+    {
+        public enum Hierarchy
+        {
+            Worker=1,
+            Engineer,
+            SeniorEngineer
+        }
+
+        static class Principle
+        { 
+            
+        }
+
+       public class Worker
+        {
+            int salary = 800;
+            string status="Worker";
+            string name = "No Name";
+        }
+
+        public class Engineer
+        {
+        
+        }
+
+       public class SeniorEngineer
+        {
+        
+        }
+
+    }
+
+
+    class Program
+    {
+        static void Main()
+        {
+           Console.WriteLine((int)Zavod.Hierarchy.Worker);
+        }
+    }
+}

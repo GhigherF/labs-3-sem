@@ -1,0 +1,15 @@
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\bin\Debug\net8.0\9 MAR.exe
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\bin\Debug\net8.0\9 MAR.deps.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\bin\Debug\net8.0\9 MAR.runtimeconfig.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\bin\Debug\net8.0\9 MAR.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\bin\Debug\net8.0\9 MAR.pdb
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\obj\Debug\net8.0\9 MAR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\obj\Debug\net8.0\9 MAR.AssemblyInfoInputs.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\obj\Debug\net8.0\9 MAR.AssemblyInfo.cs
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\obj\Debug\net8.0\9 MAR.csproj.CoreCompileInputs.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\obj\Debug\net8.0\9 MAR.sourcelink.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\obj\Debug\net8.0\9 MAR.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\obj\Debug\net8.0\refint\9 MAR.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\obj\Debug\net8.0\9 MAR.pdb
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\obj\Debug\net8.0\9 MAR.genruntimeconfig.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\9 MAR\9 MAR\obj\Debug\net8.0\ref\9 MAR.dll

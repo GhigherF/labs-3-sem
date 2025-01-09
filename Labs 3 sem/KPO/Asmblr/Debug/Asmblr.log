@@ -1,0 +1,24 @@
+﻿Сборка начата 25.11.2024 21:27:51.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\Asmblr\Asmblr.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\Asmblr.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\Asmblr.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling Asm.asm...
+         cmd.exe /C "C:\Users\stude\AppData\Local\Temp\tmp53c562184ba346ada7379e566b48c488.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\Asm.obj" /W3 /errorReport:prompt  /TaAsm.asm
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2\Debug\Asmblr.exe" /INCREMENTAL /ILK:"Debug\Asmblr.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2\Debug\Asmblr.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2\Debug\Asmblr.lib" /MACHINE:X86 Debug\Asm.obj
+         Asmblr.vcxproj -> C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2\Debug\Asmblr.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Asmblr.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Asmblr.tlog\Asmblr.lastbuildstate".
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\Asmblr\Asmblr.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.41

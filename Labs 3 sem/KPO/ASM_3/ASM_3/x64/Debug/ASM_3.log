@@ -1,0 +1,36 @@
+﻿Сборка начата 05.12.2024 22:39:39.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM_3\ASM_3.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+         Создание каталога "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM_3\x64\Debug\".
+         Создание каталога "ASM_3\x64\Debug\ASM_3.tlog\".
+       InitializeBuildStatus:
+         Создание "ASM_3\x64\Debug\ASM_3.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "ASM_3\x64\Debug\ASM_3.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling gg.asm...
+         cmd.exe /C "C:\Users\stude\AppData\Local\Temp\tmp09749a180c15480fb90dbdffda12cb27.cmd"
+         ml64.exe /c /nologo /Zi /Fo"ASM_3\x64\Debug\gg.obj" /Fl"ASM_3\x64\Debug\\" /W3 /errorReport:prompt  /Tagg.asm
+     1>gg.asm(1): error A2008: syntax error : .
+     1>gg.asm(7): error A2008: syntax error : .
+     1>gg.asm(19): error A2008: syntax error : MessageBoxA
+     1>gg.asm(25): error A2008: syntax error : main
+     1>gg.asm(25): error A2088: END directive required at end of file
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"ASM_3\x64\Debug\gg.obj" /Fl"ASM_3\x64\Debug\\" /W3 /errorReport:prompt  /Tagg.asm" с кодом "1".
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM_3\ASM_3.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM_3\ASM_3.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         gg.asm(1): error A2008: syntax error : .
+         gg.asm(7): error A2008: syntax error : .
+         gg.asm(19): error A2008: syntax error : MessageBoxA
+         gg.asm(25): error A2008: syntax error : main
+         gg.asm(25): error A2088: END directive required at end of file
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"ASM_3\x64\Debug\gg.obj" /Fl"ASM_3\x64\Debug\\" /W3 /errorReport:prompt  /Tagg.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 6
+
+Прошло времени 00:00:00.26

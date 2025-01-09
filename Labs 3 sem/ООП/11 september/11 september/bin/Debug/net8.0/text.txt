@@ -1,0 +1,201 @@
+
+Информация о сборке: 11 september, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+ Наличие публичного конструктора: False
+
+Список методов:
+
+GetType
+ToString
+Equals
+GetHashCode
+
+Список полей:
+
+
+Список свойств:
+
+test
+
+Список реализованных интерфейсов:
+
+
+Список Методов, содержащих "lab11.Set":
+
+
+-----------------------------------------------------
+
+Информация о сборке: 11 september, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+ Наличие публичного конструктора: True
+
+Список методов:
+
+get_test
+set_test
+Show
+Showk
+minus
+GetType
+ToString
+Equals
+GetHashCode
+
+Список полей:
+
+length
+iValues
+sValues
+bValues
+
+Список свойств:
+
+test
+
+Список реализованных интерфейсов:
+
+ITest
+
+Список Методов, содержащих "lab11.Set":
+
+op_Subtraction
+op_Multiply
+op_LessThan
+op_BitwiseAnd
+op_GreaterThan
+
+-----------------------------------------------------
+
+Информация о сборке: System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e
+
+ Наличие публичного конструктора: False
+
+Список методов:
+
+CompareTo
+Equals
+GetHashCode
+ToString
+TryFormat
+GetTypeCode
+GetType
+
+Список полей:
+
+MaxValue
+MinValue
+
+Список свойств:
+
+
+Список реализованных интерфейсов:
+
+IComparable
+IConvertible
+ISpanFormattable
+IFormattable
+IComparable`1
+IEquatable`1
+IBinaryInteger`1
+IBinaryNumber`1
+IBitwiseOperators`3
+INumber`1
+IComparisonOperators`3
+IEqualityOperators`3
+IModulusOperators`3
+INumberBase`1
+IAdditionOperators`3
+IAdditiveIdentity`2
+IDecrementOperators`1
+IDivisionOperators`3
+IIncrementOperators`1
+IMultiplicativeIdentity`2
+IMultiplyOperators`3
+ISpanParsable`1
+IParsable`1
+ISubtractionOperators`3
+IUnaryPlusOperators`2
+IUnaryNegationOperators`2
+IUtf8SpanFormattable
+IUtf8SpanParsable`1
+IShiftOperators`3
+IMinMaxValue`1
+ISignedNumber`1
+IBinaryIntegerParseAndFormatInfo`1
+
+Список Методов, содержащих "lab11.Set":
+
+
+-----------------------------------------------------
+
+Информация о сборке: System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e
+
+ Наличие публичного конструктора: True
+
+Список методов:
+
+CompareTo
+EndsWith
+Equals
+GetHashCode
+StartsWith
+Clone
+CopyTo
+TryCopyTo
+ToCharArray
+GetPinnableReference
+ToString
+GetEnumerator
+EnumerateRunes
+GetTypeCode
+IsNormalized
+Normalize
+get_Chars
+get_Length
+Insert
+PadLeft
+PadRight
+Remove
+Replace
+ReplaceLineEndings
+Split
+Substring
+ToLower
+ToLowerInvariant
+ToUpper
+ToUpperInvariant
+Trim
+TrimStart
+TrimEnd
+Contains
+IndexOf
+IndexOfAny
+LastIndexOf
+LastIndexOfAny
+GetType
+
+Список полей:
+
+Empty
+
+Список свойств:
+
+Chars
+Length
+
+Список реализованных интерфейсов:
+
+IComparable
+IEnumerable
+IConvertible
+IEnumerable`1
+IComparable`1
+IEquatable`1
+ICloneable
+ISpanParsable`1
+IParsable`1
+
+Список Методов, содержащих "lab11.Set":
+
+
+-----------------------------------------------------

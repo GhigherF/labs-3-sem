@@ -1,0 +1,718 @@
+﻿Сборка начата 05.11.2024 21:28:38.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "x64\Debug\SE_Lab14.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Flexer.cpp FST.cpp IT.cpp Log.cpp Out.cpp SE_Lab14.cpp
+         Flexer.cpp
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(27,16): error C3646: string: неизвестный спецификатор переопределения
+         (компиляция исходного файла "Flexer.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(27,9): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         (компиляция исходного файла "Flexer.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,10): error C3646: id: неизвестный спецификатор переопределения
+         (компиляция исходного файла "Flexer.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,3): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         (компиляция исходного файла "Flexer.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(43,29): error C2061: синтаксическая ошибка: идентификатор "string"
+         (компиляция исходного файла "Flexer.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(258,7): error C2039: "string": не является членом "FST::FST".
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(25,12):
+              см. объявление "FST::FST"
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(269,12): error C2660: IT::IsId: функция не принимает 2 аргументов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(43,6):
+              см. объявление "IT::IsId"
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(269,12):
+             при попытке сопоставить список аргументов "(IT::IdTable, _Ty1)"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,6): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "initializer list" (или приемлемое преобразование отсутствует)
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(32,2):
+             может быть "IT::Entry &IT::Entry::operator =(IT::Entry &&)"
+                 C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,6):
+                 "IT::Entry &IT::Entry::operator =(IT::Entry &&)": невозможно преобразовать аргумент 2 из "initializer list" в "IT::Entry &&"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,12):
+                     Причина: невозможно преобразовать "initializer list" в "IT::Entry"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,12):
+                     Недопустимая агрегатная инициализация
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,28):
+                         инициализация: невозможно преобразовать "_Ty1" в "IT::IDDATATYPE"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,28):
+                             Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,39):
+                         инициализация: невозможно преобразовать "IT::IDDATATYPE" в "IT::IDTYPE"
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,39):
+                             Для преобразования в перечисляемый тип требуется явное приведение (static_cast, приведение в стиле С или приведение в стиле функции в круглых скобках)
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,49):
+                         слишком много инициализаторов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(32,2):
+             или       "IT::Entry &IT::Entry::operator =(const IT::Entry &)"
+                 C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,6):
+                 "IT::Entry &IT::Entry::operator =(const IT::Entry &)": невозможно преобразовать аргумент 2 из "initializer list" в "const IT::Entry &"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,12):
+                     Причина: невозможно преобразовать "initializer list" в "const IT::Entry"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,12):
+                     Недопустимая агрегатная инициализация
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,28):
+                         инициализация: невозможно преобразовать "_Ty1" в "IT::IDDATATYPE"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,28):
+                             Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,39):
+                         инициализация: невозможно преобразовать "IT::IDDATATYPE" в "IT::IDTYPE"
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,39):
+                             Для преобразования в перечисляемый тип требуется явное приведение (static_cast, приведение в стиле С или приведение в стиле функции в круглых скобках)
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,49):
+                         слишком много инициализаторов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,6):
+             при попытке сопоставить список аргументов "(IT::Entry, initializer list)"
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,6): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "initializer list" (или приемлемое преобразование отсутствует)
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(32,2):
+             может быть "IT::Entry &IT::Entry::operator =(IT::Entry &&)"
+                 C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,6):
+                 "IT::Entry &IT::Entry::operator =(IT::Entry &&)": невозможно преобразовать аргумент 2 из "initializer list" в "IT::Entry &&"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,12):
+                     Причина: невозможно преобразовать "initializer list" в "IT::Entry"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,12):
+                     Недопустимая агрегатная инициализация
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,28):
+                         инициализация: невозможно преобразовать "_Ty1" в "IT::IDDATATYPE"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,28):
+                             Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,39):
+                         инициализация: невозможно преобразовать "IT::IDDATATYPE" в "IT::IDTYPE"
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,39):
+                             Для преобразования в перечисляемый тип требуется явное приведение (static_cast, приведение в стиле С или приведение в стиле функции в круглых скобках)
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,51):
+                         слишком много инициализаторов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(32,2):
+             или       "IT::Entry &IT::Entry::operator =(const IT::Entry &)"
+                 C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,6):
+                 "IT::Entry &IT::Entry::operator =(const IT::Entry &)": невозможно преобразовать аргумент 2 из "initializer list" в "const IT::Entry &"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,12):
+                     Причина: невозможно преобразовать "initializer list" в "const IT::Entry"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,12):
+                     Недопустимая агрегатная инициализация
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,28):
+                         инициализация: невозможно преобразовать "_Ty1" в "IT::IDDATATYPE"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,28):
+                             Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,39):
+                         инициализация: невозможно преобразовать "IT::IDDATATYPE" в "IT::IDTYPE"
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,39):
+                             Для преобразования в перечисляемый тип требуется явное приведение (static_cast, приведение в стиле С или приведение в стиле функции в круглых скобках)
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,51):
+                         слишком много инициализаторов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,6):
+             при попытке сопоставить список аргументов "(IT::Entry, initializer list)"
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(287,18): error C2660: IT::IsId: функция не принимает 2 аргументов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(43,6):
+              см. объявление "IT::IsId"
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(287,18):
+             при попытке сопоставить список аргументов "(IT::IdTable, _Ty1)"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(288,13): error C2660: IT::IsId: функция не принимает 2 аргументов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(43,6):
+              см. объявление "IT::IsId"
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(288,13):
+             при попытке сопоставить список аргументов "(IT::IdTable, _Ty1)"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(288,104): error C2660: IT::IsId: функция не принимает 2 аргументов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(43,6):
+              см. объявление "IT::IsId"
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(288,104):
+             при попытке сопоставить список аргументов "(IT::IdTable, _Ty1)"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,6): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "initializer list" (или приемлемое преобразование отсутствует)
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(32,2):
+             может быть "IT::Entry &IT::Entry::operator =(IT::Entry &&)"
+                 C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,6):
+                 "IT::Entry &IT::Entry::operator =(IT::Entry &&)": невозможно преобразовать аргумент 2 из "initializer list" в "IT::Entry &&"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,12):
+                     Причина: невозможно преобразовать "initializer list" в "IT::Entry"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,12):
+                     Недопустимая агрегатная инициализация
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,28):
+                         инициализация: невозможно преобразовать "_Ty1" в "IT::IDDATATYPE"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,28):
+                             Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,39):
+                         инициализация: невозможно преобразовать "IT::IDDATATYPE" в "IT::IDTYPE"
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,39):
+                             Для преобразования в перечисляемый тип требуется явное приведение (static_cast, приведение в стиле С или приведение в стиле функции в круглых скобках)
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,49):
+                         слишком много инициализаторов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(32,2):
+             или       "IT::Entry &IT::Entry::operator =(const IT::Entry &)"
+                 C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,6):
+                 "IT::Entry &IT::Entry::operator =(const IT::Entry &)": невозможно преобразовать аргумент 2 из "initializer list" в "const IT::Entry &"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,12):
+                     Причина: невозможно преобразовать "initializer list" в "const IT::Entry"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,12):
+                     Недопустимая агрегатная инициализация
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,28):
+                         инициализация: невозможно преобразовать "_Ty1" в "IT::IDDATATYPE"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,28):
+                             Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,39):
+                         инициализация: невозможно преобразовать "IT::IDDATATYPE" в "IT::IDTYPE"
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,39):
+                             Для преобразования в перечисляемый тип требуется явное приведение (static_cast, приведение в стиле С или приведение в стиле функции в круглых скобках)
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,49):
+                         слишком много инициализаторов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,6):
+             при попытке сопоставить список аргументов "(IT::Entry, initializer list)"
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,6): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "initializer list" (или приемлемое преобразование отсутствует)
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(32,2):
+             может быть "IT::Entry &IT::Entry::operator =(IT::Entry &&)"
+                 C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,6):
+                 "IT::Entry &IT::Entry::operator =(IT::Entry &&)": невозможно преобразовать аргумент 2 из "initializer list" в "IT::Entry &&"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,12):
+                     Причина: невозможно преобразовать "initializer list" в "IT::Entry"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,12):
+                     Недопустимая агрегатная инициализация
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,28):
+                         инициализация: невозможно преобразовать "_Ty1" в "IT::IDDATATYPE"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,28):
+                             Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,39):
+                         инициализация: невозможно преобразовать "IT::IDDATATYPE" в "IT::IDTYPE"
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,39):
+                             Для преобразования в перечисляемый тип требуется явное приведение (static_cast, приведение в стиле С или приведение в стиле функции в круглых скобках)
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,49):
+                         слишком много инициализаторов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(32,2):
+             или       "IT::Entry &IT::Entry::operator =(const IT::Entry &)"
+                 C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,6):
+                 "IT::Entry &IT::Entry::operator =(const IT::Entry &)": невозможно преобразовать аргумент 2 из "initializer list" в "const IT::Entry &"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,12):
+                     Причина: невозможно преобразовать "initializer list" в "const IT::Entry"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,12):
+                     Недопустимая агрегатная инициализация
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,28):
+                         инициализация: невозможно преобразовать "_Ty1" в "IT::IDDATATYPE"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,28):
+                             Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,39):
+                         инициализация: невозможно преобразовать "IT::IDDATATYPE" в "IT::IDTYPE"
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,39):
+                             Для преобразования в перечисляемый тип требуется явное приведение (static_cast, приведение в стиле С или приведение в стиле функции в круглых скобках)
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,49):
+                         слишком много инициализаторов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,6):
+             при попытке сопоставить список аргументов "(IT::Entry, initializer list)"
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "initializer list" (или приемлемое преобразование отсутствует)
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(32,2):
+             может быть "IT::Entry &IT::Entry::operator =(IT::Entry &&)"
+                 C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,5):
+                 "IT::Entry &IT::Entry::operator =(IT::Entry &&)": невозможно преобразовать аргумент 2 из "initializer list" в "IT::Entry &&"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,11):
+                     Причина: невозможно преобразовать "initializer list" в "IT::Entry"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,11):
+                     Недопустимая агрегатная инициализация
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,28):
+                         инициализация: невозможно преобразовать "_Ty1" в "IT::IDDATATYPE"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,28):
+                             Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,40):
+                         инициализация: невозможно преобразовать "IT::IDDATATYPE" в "IT::IDTYPE"
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,40):
+                             Для преобразования в перечисляемый тип требуется явное приведение (static_cast, приведение в стиле С или приведение в стиле функции в круглых скобках)
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,52):
+                         слишком много инициализаторов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(32,2):
+             или       "IT::Entry &IT::Entry::operator =(const IT::Entry &)"
+                 C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,5):
+                 "IT::Entry &IT::Entry::operator =(const IT::Entry &)": невозможно преобразовать аргумент 2 из "initializer list" в "const IT::Entry &"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,11):
+                     Причина: невозможно преобразовать "initializer list" в "const IT::Entry"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,11):
+                     Недопустимая агрегатная инициализация
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,28):
+                         инициализация: невозможно преобразовать "_Ty1" в "IT::IDDATATYPE"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,28):
+                             Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,40):
+                         инициализация: невозможно преобразовать "IT::IDDATATYPE" в "IT::IDTYPE"
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,40):
+                             Для преобразования в перечисляемый тип требуется явное приведение (static_cast, приведение в стиле С или приведение в стиле функции в круглых скобках)
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,52):
+                         слишком много инициализаторов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,5):
+             при попытке сопоставить список аргументов "(IT::Entry, initializer list)"
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "initializer list" (или приемлемое преобразование отсутствует)
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(32,2):
+             может быть "IT::Entry &IT::Entry::operator =(IT::Entry &&)"
+                 C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,5):
+                 "IT::Entry &IT::Entry::operator =(IT::Entry &&)": невозможно преобразовать аргумент 2 из "initializer list" в "IT::Entry &&"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,11):
+                     Причина: невозможно преобразовать "initializer list" в "IT::Entry"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,11):
+                     Недопустимая агрегатная инициализация
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,27):
+                         инициализация: невозможно преобразовать "_Ty1" в "IT::IDDATATYPE"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,27):
+                             Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,38):
+                         инициализация: невозможно преобразовать "IT::IDDATATYPE" в "IT::IDTYPE"
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,38):
+                             Для преобразования в перечисляемый тип требуется явное приведение (static_cast, приведение в стиле С или приведение в стиле функции в круглых скобках)
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,48):
+                         слишком много инициализаторов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(32,2):
+             или       "IT::Entry &IT::Entry::operator =(const IT::Entry &)"
+                 C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,5):
+                 "IT::Entry &IT::Entry::operator =(const IT::Entry &)": невозможно преобразовать аргумент 2 из "initializer list" в "const IT::Entry &"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,11):
+                     Причина: невозможно преобразовать "initializer list" в "const IT::Entry"
+                     C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,11):
+                     Недопустимая агрегатная инициализация
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,27):
+                         инициализация: невозможно преобразовать "_Ty1" в "IT::IDDATATYPE"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,27):
+                             Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,38):
+                         инициализация: невозможно преобразовать "IT::IDDATATYPE" в "IT::IDTYPE"
+                             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,38):
+                             Для преобразования в перечисляемый тип требуется явное приведение (static_cast, приведение в стиле С или приведение в стиле функции в круглых скобках)
+                         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,48):
+                         слишком много инициализаторов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,5):
+             при попытке сопоставить список аргументов "(IT::Entry, initializer list)"
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(334,18): error C2660: IT::IsId: функция не принимает 2 аргументов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(43,6):
+              см. объявление "IT::IsId"
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(334,18):
+             при попытке сопоставить список аргументов "(IT::IdTable, _Ty1)"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(343,18): error C2660: IT::IsId: функция не принимает 2 аргументов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(43,6):
+              см. объявление "IT::IsId"
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(343,18):
+             при попытке сопоставить список аргументов "(IT::IdTable, _Ty1)"
+                 with
+                 [
+                     _Ty1=std::string
+                 ]
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(346,4): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\LT.h(32,13): warning C4838: Преобразование из "unsigned int" в "int" требует сужающего преобразования.
+         (компиляция исходного файла "Flexer.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(581,16): error C2039: "id": не является членом "IT::Entry".
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(15,9):
+              см. объявление "IT::Entry"
+         
+         FST.cpp
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(27,16): error C3646: string: неизвестный спецификатор переопределения
+         (компиляция исходного файла "FST.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(27,9): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         (компиляция исходного файла "FST.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.cpp(36,9): error C2065: string: необъявленный идентификатор
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.cpp(66,65): error C2039: "string": не является членом "FST::FST".
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(25,12):
+              см. объявление "FST::FST"
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.cpp(82,36): error C2039: "string": не является членом "FST::FST".
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(25,12):
+              см. объявление "FST::FST"
+         
+         IT.cpp
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,10): error C3646: id: неизвестный спецификатор переопределения
+         (компиляция исходного файла "IT.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,3): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         (компиляция исходного файла "IT.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(43,29): error C2061: синтаксическая ошибка: идентификатор "string"
+         (компиляция исходного файла "IT.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.cpp(25,26): error C2039: "id": не является членом "IT::Entry".
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(15,9):
+              см. объявление "IT::Entry"
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.cpp(58,34): error C2039: "id": не является членом "IT::Entry".
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(15,9):
+              см. объявление "IT::Entry"
+         
+         Log.cpp
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(23,30): error C2653: LT: не является именем класса или пространства имен
+         (компиляция исходного файла "Log.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(23,34): error C2061: синтаксическая ошибка: идентификатор "LexTable"
+         (компиляция исходного файла "Log.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(25,29): error C2653: IT: не является именем класса или пространства имен
+         (компиляция исходного файла "Log.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(25,33): error C2061: синтаксическая ошибка: идентификатор "IdTable"
+         (компиляция исходного файла "Log.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,10): error C3646: id: неизвестный спецификатор переопределения
+         (компиляция исходного файла "Log.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,3): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         (компиляция исходного файла "Log.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(43,29): error C2061: синтаксическая ошибка: идентификатор "string"
+         (компиляция исходного файла "Log.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(88,12): error C2244: WriteLexTable: не удается сопоставить определение функции существующему объявлению
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(88,12):
+              см. объявление "WriteLexTable"
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00D2", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00E1", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00EB", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00F6", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00CB", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00E5", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00F1", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00EC", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(106,12): error C2244: WriteIdTable: не удается сопоставить определение функции существующему объявлению
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(106,12):
+              см. объявление "WriteIdTable"
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00D2", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00E1", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00EB", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00F6", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00C8", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00E4", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00E5", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00ED", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00F2", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00F4", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00F0", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00E2", невозможно представить в текущей кодовой странице (1251)
+         Out.cpp
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(23,30): error C2653: LT: не является именем класса или пространства имен
+         (компиляция исходного файла "Out.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(23,34): error C2061: синтаксическая ошибка: идентификатор "LexTable"
+         (компиляция исходного файла "Out.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(25,29): error C2653: IT: не является именем класса или пространства имен
+         (компиляция исходного файла "Out.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(25,33): error C2061: синтаксическая ошибка: идентификатор "IdTable"
+         (компиляция исходного файла "Out.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(40,19): warning C4566: символ, представленный универсальным именем символа "\u00CE", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(40,19): warning C4566: символ, представленный универсальным именем символа "\u00F8", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(40,19): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(40,19): warning C4566: символ, представленный универсальным именем символа "\u00E1", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(40,19): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(40,19): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,20): warning C4566: символ, представленный универсальным именем символа "\u00F1", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,20): warning C4566: символ, представленный универсальным именем символа "\u00F2", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,20): warning C4566: символ, представленный универсальным именем символа "\u00F0", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,20): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,20): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,20): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,61): warning C4566: символ, представленный универсальным именем символа "\u00EF", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,61): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,61): warning C4566: символ, представленный универсальным именем символа "\u00E7", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,61): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,61): warning C4566: символ, представленный универсальным именем символа "\u00F6", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,61): warning C4566: символ, представленный универсальным именем символа "\u00FF", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(49,12): warning C4566: символ, представленный универсальным именем символа "\u00CE", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(49,12): warning C4566: символ, представленный универсальным именем символа "\u00F8", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(49,12): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(49,12): warning C4566: символ, представленный универсальным именем символа "\u00E1", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(49,12): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(49,12): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,12): warning C4566: символ, представленный универсальным именем символа "\u00D1", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,12): warning C4566: символ, представленный универсальным именем символа "\u00F2", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,12): warning C4566: символ, представленный универсальным именем символа "\u00F0", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,12): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,12): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,12): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,51): warning C4566: символ, представленный универсальным именем символа "\u00EF", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,51): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,51): warning C4566: символ, представленный универсальным именем символа "\u00E7", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,51): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,51): warning C4566: символ, представленный универсальным именем символа "\u00F6", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,51): warning C4566: символ, представленный универсальным именем символа "\u00FF", невозможно представить в текущей кодовой странице (1251)
+         SE_Lab14.cpp
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(23,30): error C2653: LT: не является именем класса или пространства имен
+         (компиляция исходного файла "SE_Lab14.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(23,34): error C2061: синтаксическая ошибка: идентификатор "LexTable"
+         (компиляция исходного файла "SE_Lab14.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(25,29): error C2653: IT: не является именем класса или пространства имен
+         (компиляция исходного файла "SE_Lab14.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(25,33): error C2061: синтаксическая ошибка: идентификатор "IdTable"
+         (компиляция исходного файла "SE_Lab14.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(27,16): error C3646: string: неизвестный спецификатор переопределения
+         (компиляция исходного файла "SE_Lab14.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(27,9): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         (компиляция исходного файла "SE_Lab14.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,10): error C3646: id: неизвестный спецификатор переопределения
+         (компиляция исходного файла "SE_Lab14.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,3): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         (компиляция исходного файла "SE_Lab14.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(43,29): error C2061: синтаксическая ошибка: идентификатор "string"
+         (компиляция исходного файла "SE_Lab14.cpp")
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(18,13): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(31,17): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(34,13): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(41,17): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(42,17): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(43,17): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(49,17): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(50,17): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(50,58): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(63,14): error C2660: Log::WriteLexTable: функция не принимает 2 аргументов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(23,7):
+              см. объявление "Log::WriteLexTable"
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(63,14):
+             при попытке сопоставить список аргументов "(Log::LOG, LT::LexTable)"
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(64,14): error C2660: Log::WriteIdTable: функция не принимает 2 аргументов
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(25,7):
+              см. объявление "Log::WriteIdTable"
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(64,14):
+             при попытке сопоставить список аргументов "(Log::LOG, IT::IdTable)"
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(71,17): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+         Создание кода...
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\LT.h(32,13): warning C4838: Преобразование из "unsigned int" в "int" требует сужающего преобразования.
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00D2", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00E1", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00EB", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00F6", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00CB", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00E5", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00F1", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(91,18): warning C4566: символ, представленный универсальным именем символа "\u00EC", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00D2", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00E1", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00EB", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00F6", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00C8", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00E4", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00E5", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00ED", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00F2", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00F4", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00F0", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(109,18): warning C4566: символ, представленный универсальным именем символа "\u00E2", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(40,19): warning C4566: символ, представленный универсальным именем символа "\u00CE", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(40,19): warning C4566: символ, представленный универсальным именем символа "\u00F8", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(40,19): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(40,19): warning C4566: символ, представленный универсальным именем символа "\u00E1", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(40,19): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(40,19): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,20): warning C4566: символ, представленный универсальным именем символа "\u00F1", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,20): warning C4566: символ, представленный универсальным именем символа "\u00F2", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,20): warning C4566: символ, представленный универсальным именем символа "\u00F0", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,20): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,20): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,20): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,61): warning C4566: символ, представленный универсальным именем символа "\u00EF", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,61): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,61): warning C4566: символ, представленный универсальным именем символа "\u00E7", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,61): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,61): warning C4566: символ, представленный универсальным именем символа "\u00F6", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(42,61): warning C4566: символ, представленный универсальным именем символа "\u00FF", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(49,12): warning C4566: символ, представленный универсальным именем символа "\u00CE", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(49,12): warning C4566: символ, представленный универсальным именем символа "\u00F8", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(49,12): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(49,12): warning C4566: символ, представленный универсальным именем символа "\u00E1", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(49,12): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(49,12): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,12): warning C4566: символ, представленный универсальным именем символа "\u00D1", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,12): warning C4566: символ, представленный универсальным именем символа "\u00F2", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,12): warning C4566: символ, представленный универсальным именем символа "\u00F0", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,12): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,12): warning C4566: символ, представленный универсальным именем символа "\u00EA", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,12): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,51): warning C4566: символ, представленный универсальным именем символа "\u00EF", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,51): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,51): warning C4566: символ, представленный универсальным именем символа "\u00E7", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,51): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,51): warning C4566: символ, представленный универсальным именем символа "\u00F6", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Out.cpp(50,51): warning C4566: символ, представленный универсальным именем символа "\u00FF", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(18,13): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(31,17): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(34,13): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(41,17): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(42,17): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(43,17): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(49,17): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(50,17): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(50,58): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(71,17): warning C4566: символ, представленный универсальным именем символа "\uFFFD", невозможно представить в текущей кодовой странице (1251)
+
+
+       "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(27,16): error C3646: string: неизвестный спецификатор переопределения
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(27,9): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,10): error C3646: id: неизвестный спецификатор переопределения
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,3): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(43,29): error C2061: синтаксическая ошибка: идентификатор "string"
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(258,7): error C2039: "string": не является членом "FST::FST".
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(269,12): error C2660: IT::IsId: функция не принимает 2 аргументов
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(273,6): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "initializer list" (или приемлемое преобразование отсутствует)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(277,6): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "initializer list" (или приемлемое преобразование отсутствует)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(287,18): error C2660: IT::IsId: функция не принимает 2 аргументов
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(288,13): error C2660: IT::IsId: функция не принимает 2 аргументов
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(288,104): error C2660: IT::IsId: функция не принимает 2 аргументов
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(292,6): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "initializer list" (или приемлемое преобразование отсутствует)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(296,6): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "initializer list" (или приемлемое преобразование отсутствует)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(309,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "initializer list" (или приемлемое преобразование отсутствует)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(313,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "initializer list" (или приемлемое преобразование отсутствует)
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(334,18): error C2660: IT::IsId: функция не принимает 2 аргументов
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(343,18): error C2660: IT::IsId: функция не принимает 2 аргументов
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(346,4): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Flexer.cpp(581,16): error C2039: "id": не является членом "IT::Entry".
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(27,16): error C3646: string: неизвестный спецификатор переопределения
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(27,9): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.cpp(36,9): error C2065: string: необъявленный идентификатор
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.cpp(66,65): error C2039: "string": не является членом "FST::FST".
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.cpp(82,36): error C2039: "string": не является членом "FST::FST".
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,10): error C3646: id: неизвестный спецификатор переопределения
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,3): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(43,29): error C2061: синтаксическая ошибка: идентификатор "string"
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.cpp(25,26): error C2039: "id": не является членом "IT::Entry".
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.cpp(58,34): error C2039: "id": не является членом "IT::Entry".
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(23,30): error C2653: LT: не является именем класса или пространства имен
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(23,34): error C2061: синтаксическая ошибка: идентификатор "LexTable"
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(25,29): error C2653: IT: не является именем класса или пространства имен
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(25,33): error C2061: синтаксическая ошибка: идентификатор "IdTable"
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,10): error C3646: id: неизвестный спецификатор переопределения
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,3): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(43,29): error C2061: синтаксическая ошибка: идентификатор "string"
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(88,12): error C2244: WriteLexTable: не удается сопоставить определение функции существующему объявлению
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.cpp(106,12): error C2244: WriteIdTable: не удается сопоставить определение функции существующему объявлению
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(23,30): error C2653: LT: не является именем класса или пространства имен
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(23,34): error C2061: синтаксическая ошибка: идентификатор "LexTable"
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(25,29): error C2653: IT: не является именем класса или пространства имен
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(25,33): error C2061: синтаксическая ошибка: идентификатор "IdTable"
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(23,30): error C2653: LT: не является именем класса или пространства имен
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(23,34): error C2061: синтаксическая ошибка: идентификатор "LexTable"
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(25,29): error C2653: IT: не является именем класса или пространства имен
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\Log.h(25,33): error C2061: синтаксическая ошибка: идентификатор "IdTable"
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(27,16): error C3646: string: неизвестный спецификатор переопределения
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\FST.h(27,9): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,10): error C3646: id: неизвестный спецификатор переопределения
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(18,3): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\IT.h(43,29): error C2061: синтаксическая ошибка: идентификатор "string"
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(63,14): error C2660: Log::WriteLexTable: функция не принимает 2 аргументов
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_Lab14\SE_Lab14\SE_Lab14.cpp(64,14): error C2660: Log::WriteIdTable: функция не принимает 2 аргументов
+
+    Предупреждений: 74
+    Ошибок: 54
+
+Прошло времени 00:00:02.65

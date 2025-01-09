@@ -1,0 +1,81 @@
+﻿Сборка начата 17.12.2024 21:46:48.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_asm01.asm\SE_asm01.asm.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "Debug\SE_asm01.asm.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling Libka.asm...
+         cmd.exe /C "C:\Users\stude\AppData\Local\Temp\tmp5717e71871ac43c681a53c4bc5e0d2b7.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\Libka.obj" /W3 /errorReport:prompt  /TaLibka.asm
+     1>Libka.asm(1): error A2044: invalid character in file
+     1>Libka.asm(8): error A2119: language type must be specified
+     1>Libka.asm(10): error A2034: must be in segment block : getmin
+     1>Libka.asm(12): error A2034: must be in segment block
+     1>Libka.asm(13): error A2034: must be in segment block
+     1>Libka.asm(14): error A2034: must be in segment block
+     1>Libka.asm(15): error A2034: must be in segment block
+     1>Libka.asm(16): error A2034: must be in segment block
+     1>Libka.asm(18): error A2034: must be in segment block
+     1>Libka.asm(19): error A2034: must be in segment block
+     1>Libka.asm(20): error A2034: must be in segment block
+     1>Libka.asm(21): error A2034: must be in segment block
+     1>Libka.asm(23): error A2034: must be in segment block
+     1>Libka.asm(24): error A2034: must be in segment block
+     1>Libka.asm(25): error A2034: must be in segment block
+     1>Libka.asm(26): error A2034: must be in segment block
+     1>Libka.asm(27): error A2034: must be in segment block
+     1>Libka.asm(29): error A2034: must be in segment block
+     1>Libka.asm(30): error A2034: must be in segment block
+     1>Libka.asm(31): error A2034: must be in segment block
+     1>Libka.asm(33): error A2034: must be in segment block
+     1>Libka.asm(34): error A2034: must be in segment block
+     1>Libka.asm(36): error A2034: must be in segment block
+     1>Libka.asm(37): error A2034: must be in segment block
+     1>Libka.asm(38): error A2034: must be in segment block
+     1>Libka.asm(39): error A2034: must be in segment block
+     1>Libka.asm(40): error A2034: must be in segment block
+     1>Libka.asm(42): error A2034: must be in segment block
+     1>Libka.asm(43): fatal error A1010: unmatched block nesting : getmin
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\Libka.obj" /W3 /errorReport:prompt  /TaLibka.asm" с кодом "1".
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_asm01.asm\SE_asm01.asm.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\SE_asm01.asm\SE_asm01.asm.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         Libka.asm(1): error A2044: invalid character in file
+         Libka.asm(8): error A2119: language type must be specified
+         Libka.asm(10): error A2034: must be in segment block : getmin
+         Libka.asm(12): error A2034: must be in segment block
+         Libka.asm(13): error A2034: must be in segment block
+         Libka.asm(14): error A2034: must be in segment block
+         Libka.asm(15): error A2034: must be in segment block
+         Libka.asm(16): error A2034: must be in segment block
+         Libka.asm(18): error A2034: must be in segment block
+         Libka.asm(19): error A2034: must be in segment block
+         Libka.asm(20): error A2034: must be in segment block
+         Libka.asm(21): error A2034: must be in segment block
+         Libka.asm(23): error A2034: must be in segment block
+         Libka.asm(24): error A2034: must be in segment block
+         Libka.asm(25): error A2034: must be in segment block
+         Libka.asm(26): error A2034: must be in segment block
+         Libka.asm(27): error A2034: must be in segment block
+         Libka.asm(29): error A2034: must be in segment block
+         Libka.asm(30): error A2034: must be in segment block
+         Libka.asm(31): error A2034: must be in segment block
+         Libka.asm(33): error A2034: must be in segment block
+         Libka.asm(34): error A2034: must be in segment block
+         Libka.asm(36): error A2034: must be in segment block
+         Libka.asm(37): error A2034: must be in segment block
+         Libka.asm(38): error A2034: must be in segment block
+         Libka.asm(39): error A2034: must be in segment block
+         Libka.asm(40): error A2034: must be in segment block
+         Libka.asm(42): error A2034: must be in segment block
+         Libka.asm(43): fatal error A1010: unmatched block nesting : getmin
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\Libka.obj" /W3 /errorReport:prompt  /TaLibka.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 30
+
+Прошло времени 00:00:00.24

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cacti>
+  <Cactus>
+    <Name>Cactus1</Name>
+    <Price>100</Price>
+    <Beauty>200</Beauty>
+    <Color>Green</Color>
+  </Cactus>
+  <Cactus>
+    <Name>Cactus2</Name>
+    <Price>200</Price>
+    <Beauty>300</Beauty>
+    <Color>Red</Color>
+  </Cactus>
+  <Cactus>
+    <Name>Cactus3</Name>
+    <Price>300</Price>
+    <Beauty>400</Beauty>
+    <Color>Blue</Color>
+  </Cactus>
+</Cacti>

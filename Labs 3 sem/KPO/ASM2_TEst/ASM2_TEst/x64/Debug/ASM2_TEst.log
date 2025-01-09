@@ -1,0 +1,40 @@
+﻿Сборка начата 26.11.2024 22:33:15.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2_TEst\ASM2_TEst.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+         Создание каталога "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2_TEst\x64\Debug\".
+         Создание каталога "ASM2_TEst\x64\Debug\ASM2_TEst.tlog\".
+       InitializeBuildStatus:
+         Создание "ASM2_TEst\x64\Debug\ASM2_TEst.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "ASM2_TEst\x64\Debug\ASM2_TEst.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling ASM.asm...
+         cmd.exe /C "C:\Users\stude\AppData\Local\Temp\tmpf283846504af4b89a2680a1060c590c7.cmd"
+         ml64.exe /c /nologo /Zi /Fo"ASM2_TEst\x64\Debug\ASM.obj" /Fl"ASM2_TEst\x64\Debug\\" /W3 /errorReport:prompt  /TaASM.asm
+     1>ASM.asm(1): error A2008: syntax error : .
+     1>ASM.asm(7): error A2008: syntax error : .
+     1>ASM.asm(22): error A2070: invalid instruction operands
+     1>ASM.asm(23): error A2070: invalid instruction operands
+     1>ASM.asm(24): error A2070: invalid instruction operands
+     1>ASM.asm(31): error A2008: syntax error : main
+     1>ASM.asm(31): error A2088: END directive required at end of file
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"ASM2_TEst\x64\Debug\ASM.obj" /Fl"ASM2_TEst\x64\Debug\\" /W3 /errorReport:prompt  /TaASM.asm" с кодом "1".
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2_TEst\ASM2_TEst.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\ASM2_TEst\ASM2_TEst.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         ASM.asm(1): error A2008: syntax error : .
+         ASM.asm(7): error A2008: syntax error : .
+         ASM.asm(22): error A2070: invalid instruction operands
+         ASM.asm(23): error A2070: invalid instruction operands
+         ASM.asm(24): error A2070: invalid instruction operands
+         ASM.asm(31): error A2008: syntax error : main
+         ASM.asm(31): error A2088: END directive required at end of file
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"ASM2_TEst\x64\Debug\ASM.obj" /Fl"ASM2_TEst\x64\Debug\\" /W3 /errorReport:prompt  /TaASM.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 8
+
+Прошло времени 00:00:00.30

@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\stude\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Labs\\labs\\Labs 3 sem\\\u041E\u041E\u041F\\l4u\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D76C295-C036-4E3B-9A37-E49BF34E6823}|l4u.csproj|c:\\users\\stude\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\labs\\labs\\labs 3 sem\\\u043E\u043E\u043F\\l4u\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D76C295-C036-4E3B-9A37-E49BF34E6823}|l4u.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D76C295-C036-4E3B-9A37-E49BF34E6823}|l4u.csproj|c:\\users\\stude\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\labs\\labs\\labs 3 sem\\\u043E\u043E\u043F\\l4u\\l4u.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4D76C295-C036-4E3B-9A37-E49BF34E6823}|l4u.csproj|solutionrelative:l4u.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "l4u",
+              "DocumentMoniker": "C:\\Users\\stude\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Labs\\labs\\Labs 3 sem\\\u041E\u041E\u041F\\l4u\\l4u.csproj",
+              "RelativeDocumentMoniker": "l4u.csproj",
+              "ToolTip": "C:\\Users\\stude\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Labs\\labs\\Labs 3 sem\\\u041E\u041E\u041F\\l4u\\l4u.csproj",
+              "RelativeToolTip": "l4u.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-28T08:35:27.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Labs\\labs\\Labs 3 sem\\\u041E\u041E\u041F\\l4u\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\stude\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Labs\\labs\\Labs 3 sem\\\u041E\u041E\u041F\\l4u\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwFQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:25:34.651Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

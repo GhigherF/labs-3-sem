@@ -1,0 +1,15 @@
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\bin\Debug\net8.0\10 niggers.exe
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\bin\Debug\net8.0\10 niggers.deps.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\bin\Debug\net8.0\10 niggers.runtimeconfig.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\bin\Debug\net8.0\10 niggers.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\bin\Debug\net8.0\10 niggers.pdb
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\obj\Debug\net8.0\10 niggers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\obj\Debug\net8.0\10 niggers.AssemblyInfoInputs.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\obj\Debug\net8.0\10 niggers.AssemblyInfo.cs
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\obj\Debug\net8.0\10 niggers.csproj.CoreCompileInputs.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\obj\Debug\net8.0\10 niggers.sourcelink.json
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\obj\Debug\net8.0\10 niggers.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\obj\Debug\net8.0\refint\10 niggers.dll
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\obj\Debug\net8.0\10 niggers.pdb
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\obj\Debug\net8.0\10 niggers.genruntimeconfig.cache
+C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\ООП\10 niggers\10 niggers\obj\Debug\net8.0\ref\10 niggers.dll

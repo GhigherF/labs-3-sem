@@ -1,0 +1,50 @@
+﻿Сборка начата 01.12.2024 22:47:15.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\lab_17\SE_Lab17\SE_Lab17\SE_Lab17.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Debug\SE_Lab17.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\SE_Lab17.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt GRB.cpp
+         GRB.cpp
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\lab_17\SE_Lab17\SE_Lab17\Rules.h(7,9): warning C4005: NS: изменение макроопределения
+         (компиляция исходного файла "GRB.cpp")
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\lab_17\SE_Lab17\SE_Lab17\GRB.h(3,9):
+             см. предыдущее определение "NS"
+         
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\lab_17\SE_Lab17\SE_Lab17\Rules.h(8,9): warning C4005: TS: изменение макроопределения
+         (компиляция исходного файла "GRB.cpp")
+             C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\lab_17\SE_Lab17\SE_Lab17\GRB.h(4,9):
+             см. предыдущее определение "TS"
+         
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\lab_17\SE_Lab17\x64\Debug\SE_Lab17.exe" /INCREMENTAL /ILK:"x64\Debug\SE_Lab17.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\lab_17\SE_Lab17\x64\Debug\SE_Lab17.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\lab_17\SE_Lab17\x64\Debug\SE_Lab17.lib" /MACHINE:X64 x64\Debug\Error.obj
+         x64\Debug\FST.obj
+         x64\Debug\GRB.obj
+         x64\Debug\In.obj
+         x64\Debug\IT.obj
+         x64\Debug\Flexer.obj
+         x64\Debug\Log.obj
+         x64\Debug\LT.obj
+         x64\Debug\MFST.obj
+         x64\Debug\Out.obj
+         x64\Debug\Parm.obj
+         x64\Debug\SE_Lab17.obj
+         SE_Lab17.vcxproj -> C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\lab_17\SE_Lab17\x64\Debug\SE_Lab17.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\SE_Lab17.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\SE_Lab17.tlog\SE_Lab17.lastbuildstate".
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\lab_17\SE_Lab17\SE_Lab17\SE_Lab17.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\lab_17\SE_Lab17\SE_Lab17\SE_Lab17.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\lab_17\SE_Lab17\SE_Lab17\Rules.h(7,9): warning C4005: NS: изменение макроопределения
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\lab_17\SE_Lab17\SE_Lab17\Rules.h(8,9): warning C4005: TS: изменение макроопределения
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:00.85

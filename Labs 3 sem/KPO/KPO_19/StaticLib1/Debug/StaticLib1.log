@@ -1,0 +1,27 @@
+﻿Сборка начата 19.12.2024 21:48:38.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\StaticLib1\StaticLib1.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\StaticLib1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\StaticLib1.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling Libka.asm...
+         cmd.exe /C "C:\Users\stude\AppData\Local\Temp\tmp9584e2cc14a54ef29b3ce24b040e3395.cmd"
+         ml.exe /c /nologo /Zi /Zm /Fo"Debug\Libka.obj" /W3 /errorReport:prompt  /TaLibka.asm
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\Lib.exe /OUT:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\Debug\StaticLib1.lib" /NOLOGO /MACHINE:X86 Debug\pch.obj
+         Debug\Libka.obj
+         StaticLib1.vcxproj -> C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\Debug\StaticLib1.lib
+       FinalizeBuildStatus:
+         Файл "Debug\StaticLib1.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\StaticLib1.tlog\StaticLib1.lastbuildstate".
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs\Labs 3 sem\KPO\KPO_19\StaticLib1\StaticLib1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.30

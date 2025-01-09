@@ -1,0 +1,53 @@
+﻿#include <iostream>
+#include <vector>
+#include <stack>
+
+using namespace std;
+
+
+
+int longest(vector<int> numbers) {
+  
+    if (numbers.size() == 1) {
+        return 1;
+    }
+	
+
+    vector<int> SubLength(numbers.size(), 1);
+
+    for (int i = 0; i < numbers.size(); i++)
+    {
+        for (int j = 0; j < i; j++)
+        {
+            if (numbers[i] > numbers[j]) {
+                if (SubLength[i] <= SubLength[j]) {
+                    SubLength[i] = SubLength[j] + 1;
+                }
+            }
+        }
+    }
+
+    int max = INT_MIN;
+
+    for (int i : SubLength) {
+        if (i > max) 
+        {
+			max = i;
+		}   
+    }
+
+    return max;
+}
+
+void main()
+{
+	int N;
+	cout << "Length:";
+    cin>>N;
+ vector<int> numbers(N);
+    for (int i = 0; i < N; i++)
+    {
+        cin >> numbers[i];
+    }
+   cout<<longest(numbers);
+}

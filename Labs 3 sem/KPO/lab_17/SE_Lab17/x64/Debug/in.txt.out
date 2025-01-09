@@ -1,0 +1,22 @@
+|1
+main|2
+{|3
+declare integer x;|4
+declare integer y;|5
+declare integer z;|6
+declare string sa;|7
+declare string sb;|8
+declare string sc;|9
+declare integer function strl(string p);|10
+x = 1;|11
+y = 5;|12
+sa = '1234567890';|13
+sb = '1234567890';|14
+z = fi(x,y);|15
+sc = fs(sa,sb);|16
+print 'Hello World';|17
+print z;|18
+print sc;|19
+print strl(sc);|20
+return 0;|21
+};|22

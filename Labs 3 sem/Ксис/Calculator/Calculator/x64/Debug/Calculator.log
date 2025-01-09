@@ -1,0 +1,31 @@
+﻿Сборка начата 09.01.2025 13:03:42.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs-3-sem\Labs 3 sem\Ксис\Calculator\Calculator.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+         Создание каталога "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs-3-sem\Labs 3 sem\Ксис\Calculator\x64\Debug\".
+         Создание каталога "Calculator\x64\Debug\Calculator.tlog\".
+       InitializeBuildStatus:
+         Создание "Calculator\x64\Debug\Calculator.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Calculator\x64\Debug\Calculator.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Calculator\x64\Debug\\" /Fd"Calculator\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Calculator.cpp
+         Calculator.cpp
+     1>C:\Users\stude\OneDrive\Рабочий стол\Labs\labs-3-sem\Labs 3 sem\Ксис\Calculator\Calculator.cpp(82,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs-3-sem\Labs 3 sem\Ксис\Calculator\x64\Debug\Calculator.exe" /INCREMENTAL /ILK:"Calculator\x64\Debug\Calculator.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs-3-sem\Labs 3 sem\Ксис\Calculator\x64\Debug\Calculator.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stude\OneDrive\Рабочий стол\Labs\labs-3-sem\Labs 3 sem\Ксис\Calculator\x64\Debug\Calculator.lib" /MACHINE:X64 Calculator\x64\Debug\Calculator.obj
+         Calculator.vcxproj -> C:\Users\stude\OneDrive\Рабочий стол\Labs\labs-3-sem\Labs 3 sem\Ксис\Calculator\x64\Debug\Calculator.exe
+       FinalizeBuildStatus:
+         Файл "Calculator\x64\Debug\Calculator.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Calculator\x64\Debug\Calculator.tlog\Calculator.lastbuildstate".
+     1>Сборка проекта "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs-3-sem\Labs 3 sem\Ксис\Calculator\Calculator.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\stude\OneDrive\Рабочий стол\Labs\labs-3-sem\Labs 3 sem\Ксис\Calculator\Calculator.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\stude\OneDrive\Рабочий стол\Labs\labs-3-sem\Labs 3 sem\Ксис\Calculator\Calculator.cpp(82,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:01.12
